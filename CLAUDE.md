@@ -1,5 +1,11 @@
 # Project Instructions
 
+## Project Overview
+
+**Coffee with Claude** is a Dad Joke API — a simple FastAPI web application
+that returns random dad jokes. See `docs/architecture.md` for tech stack
+and project structure details.
+
 ## Git Workflow
 
 - **Always use feature branches** — Never commit directly to `main`.
@@ -10,25 +16,13 @@
 - **Branch from the latest `main`** before starting any work.
 - Follow standard Git flow: branch → commit → PR → merge.
 
-## Testing
+## Code, Testing & Documentation Standards
 
-- **Every new piece of code must have a complementary unit test.**
-- Use **pytest** as the test framework.
-- Work is **not considered done** until all unit tests pass.
-- Run tests with `pytest` before finalizing any change.
+See `docs/contributing.md` for Python best practices, testing rules,
+and documentation guidelines.
 
-## Documentation
+## Key Docs
 
-- All documentation lives in the `docs/` folder as Markdown files.
-- **New features** — Create corresponding documentation in `docs/`.
-- **Existing code changes** — Review related documentation and update it to stay current.
-- Documentation must accurately reflect the current state of the codebase.
-
-## Python Best Practices
-
-- Follow **PEP 8** for code style and formatting.
-- Use **type hints** for function signatures.
-- Use **docstrings** (Google style) for modules, classes, and functions.
-- Keep functions focused and single-purpose.
-- Use meaningful variable and function names.
-- Organize imports per PEP 8: standard library, third-party, local.
+- `docs/architecture.md` — Tech stack, project structure, error handling
+- `docs/api.md` — API endpoints and usage
+- `docs/contributing.md` — Code style, testing, and documentation rules
